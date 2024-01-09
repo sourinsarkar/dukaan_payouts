@@ -5,7 +5,7 @@ const HeaderComponent: React.FC = () => {
         <div className="flex items-center justify-between">
             {/* Page Tag */}
             <div className="w-full flex items-center">
-                Payments
+                <h3>Payments</h3>
                 <div className="flex items-center">
                     <img src="/images/HelpIcon.svg" alt="Help" />
                     How it works
@@ -13,8 +13,8 @@ const HeaderComponent: React.FC = () => {
             </div>
 
             {/* Search bar */}
-            <div className="w-full flex items-center bg-[var(--xlight-gray-)]">
-                <img src="/images/SearchIcon.svg" alt="Search" /> <span><input type="search" placeholder="Search features, tutorials, etc." /></span>
+            <div className="w-full flex items-center bg-xlight-gray px-4 py-[0.5625rem] rounded-[0.375rem] gap-2">
+                <img src="/images/SearchIcon.svg" alt="Search" /> <span><input type="search" placeholder="Search features, tutorials, etc." className="bg-transparent placeholder-[#808080]"/></span>
             </div>
 
             {/* Header Buttons */}

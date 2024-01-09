@@ -13,6 +13,9 @@ export default {
         "stroke-color": "#D9D9D9",
         "xlight-gray": "#f2f2f2",
       },
+      fontSize: {
+        "15px": "0.9375rem",
+      }
     },
   },
   plugins: [],
