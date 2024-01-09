@@ -13,13 +13,13 @@ const HeaderComponent: React.FC = () => {
             </div>
 
             {/* Search bar */}
-            <div className="w-full flex items-center">
+            <div className="w-full flex items-center bg-[var(--xlight-gray-)]">
                 <img src="/images/SearchIcon.svg" alt="Search" /> <span><input type="search" placeholder="Search features, tutorials, etc." /></span>
             </div>
 
             {/* Header Buttons */}
             <div className="w-full flex items-center justify-end">
-                <div className="flex items-center">
+                <div className="flex items-center gap-3">
                     <HeaderBtnComponent image="/images/AnnouncementIcon.svg" rel="Announcement" />
                     <HeaderBtnComponent image="/images/DropDownIcon.svg" rel="Announcement" />
                 </div>
