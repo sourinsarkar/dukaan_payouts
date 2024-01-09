@@ -6,6 +6,10 @@
     --primary-font: 'Inter';
 }
 
+body {
+    font-family: var(--primary-font);
+}
+
 @font-face {
     font-family: 'Inter';
     src: url('/fonts/Inter/Inter-Variable.woff2') format('woff2'),
@@ -14,8 +18,4 @@
     font-weight: 200 800;
     font-display: swap;
     font-style: normal;
-}
-
-.primary-font {
-    font-family: var(--primary-font);
 }
